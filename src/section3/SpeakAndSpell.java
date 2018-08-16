@@ -13,11 +13,16 @@ public class SpeakAndSpell {
 		// 2. Catch the user's answer in a String
 String manglebrot = JOptionPane.showInputDialog("enter the word");
 		// 3. If the user spelled the word correctly, speak "correct"
-if(manglebrot.equals("spell mandlebrot")){
+if(manglebrot.equals("mandlebrot")){
+	speak("correct");
+	
+}
+else {
+	speak("wrong");
 }
 		// 4. Otherwise say "wrong"
-if()
-		// 5. repeat the process for other words
+
+		// 5. repeat the process for other ords
 		
 	}
 
